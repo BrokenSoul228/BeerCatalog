@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.BeerCatalog" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="windowActionBar" > false </item>
+        <item name="windowNoTitle"> true </item>
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="android:statusBarColor" >@android:color/holo_blue_dark</item>
+        <item name="android:state_checked">@android:color/holo_blue_dark</item>
+    </style>
+
+    <style name="Theme.Beer" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="windowActionBar" > false </item>
+        <item name="windowNoTitle"> true </item>
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="android:colorPrimaryDark" >@android:color/tertiary_text_dark</item>
+        <item name="android:state_checked">@android:color/holo_blue_dark</item>
+    </style>
+
+</resources>
